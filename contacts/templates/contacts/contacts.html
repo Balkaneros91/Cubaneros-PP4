@@ -1,1 +1,14 @@
 <h1>Contacts</h1>
+
+Name: {{ contacts.name }}
+Email: {{ contacts.email }}
+Phone number: {{ contacts.phone_number }}
+Address: {{ contacts.address }}
+
+
+<h2>Opening Hours: </h2>
+
+{% for h in open_hours %}
+<p>{{ h.days }}</p>
+<p>{{ h.hours }}</p>
+{% endfor %}
