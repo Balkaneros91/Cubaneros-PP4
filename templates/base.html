@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cubaneros {% block extra_title %}{% endblock %}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to restaurant Cubaneros. We represent the rustic traditional cuban cusine.">
+    <meta name="keywords" content="restaurant, cusine, culinary, cuban, food, cooking, tradition, community">
+    <meta name="author" content="Antonio-Claudio Andelic">
+
+</head>
+
+<body>
+
+    
+    <nav>
+        <h1>Hello from base.html</h1>
+    </nav>
+
+
+    <main class="flex-shrink-0 main-bg">
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
+    </main>
+
+
+    <footer>
+        <h2>Hello from footer</h2>
+    </footer>
+
+
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/58d92d93b9.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

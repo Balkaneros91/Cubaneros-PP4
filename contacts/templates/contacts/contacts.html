@@ -1,3 +1,9 @@
+{% extends 'base.html' %}
+
+{% block extra_title %}- Contacts{% endblock %}
+
+{% block content %}
+
 <h1>Contacts</h1>
 
 Name: {{ contacts.name }}
@@ -12,3 +18,6 @@ Address: {{ contacts.address }}
 <p>{{ h.days }}</p>
 <p>{{ h.hours }}</p>
 {% endfor %}
+
+
+{% endblock %}
