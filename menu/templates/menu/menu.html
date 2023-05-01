@@ -1,1 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
 <h1>Menu</h1>
+
+{% for category in categories %}
+<h5>{{ category.name }}</h5>
+{% endfor %}
+
+
+{% endblock %}

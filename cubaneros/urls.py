@@ -21,9 +21,10 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
-    path('', include('restaurant.urls')),
-    path('', include('about.urls')),
-    path('', include('contacts.urls')),
+    path('home/', include('restaurant.urls')),
+    path('about/', include('about.urls')),
+    path('contacts/', include('contacts.urls')),
+    path('menu/', include('menu.urls', namespace='menu')),
     path('accounts/', include('allauth.urls')),
 ]
 
