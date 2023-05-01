@@ -1,1 +1,9 @@
 <h1>ABOUT</h1>
+
+
+{% for things in things_we_offer %}
+
+<h5>{{ things.title }}</h5>
+<p>{{ things.description }}</p>
+
+{% endfor %}
