@@ -26,4 +26,4 @@ def reservation_booking(request):
 def booking_confirmation(request):
     booking = Booking.objects.first()
     context = {'booking': booking}
-    return render(request, 'table_booking/booking_confirmation.html', context)
+    return render(request, 'reservation_booking/booking_confirmation.html', context)

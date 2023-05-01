@@ -22,9 +22,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('restaurant.urls')),
     path('about/', include('about.urls')),
-    path('contacts/', include('contacts.urls')),
     path('menu/', include('menu.urls', namespace='menu')),
     path('reservation_booking/', include('reservation_booking.urls')),
+    path('my-booking/', include('bookings.urls')),
+    path('contacts/', include('contacts.urls')),
     path('accounts/', include('allauth.urls')),
     path('summernote/', include('django_summernote.urls')),
 ]
