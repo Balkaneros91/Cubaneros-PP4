@@ -1,5 +1,7 @@
 from django import forms
 from django.core.exceptions import ValidationError
+from django.core.validators import validate_email
+import re
 from .models import Booking
 from .widget import DatePickerInput, TimePickerInput
 from datetime import time
@@ -16,7 +18,7 @@ def validate_opening_hours(value):
         raise forms.ValidationError("Sorry, the last online booking can be made at most 2 hours before closing time.")
 
 
-class BookingTableForm(forms.ModelForm):
+class BookingForm(forms.ModelForm):
     reservation_time = forms.TimeField(widget=TimePickerInput(attrs={'class': 'form-control'}), validators=[validate_opening_hours])
 
     class Meta:

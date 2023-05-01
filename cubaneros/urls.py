@@ -24,7 +24,7 @@ urlpatterns = [
     path('about/', include('about.urls')),
     path('contacts/', include('contacts.urls')),
     path('menu/', include('menu.urls', namespace='menu')),
-    # path('/', include('reservation_booking.urls')),
+    path('reservation_booking/', include('reservation_booking.urls')),
     path('accounts/', include('allauth.urls')),
     path('summernote/', include('django_summernote.urls')),
 ]
