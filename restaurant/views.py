@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def restaurant_home_view(request):
+def home_view(request):
     """View returning the index page"""
 
     context = {}
