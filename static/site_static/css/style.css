@@ -742,3 +742,80 @@ table a {
     }
 }
 
+/* Styles for screens with a minimum width of 576px */
+
+@media (min-width: 576px) {
+    .heading {
+        font-size: 24px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+
+    .home-about p {
+        font-size: 14px;
+    }
+
+    .cover_img .img_bg>.container>.row {
+        min-height: 200px;
+        height: 40vh;
+    }
+
+    .contacts h2 {
+        font-size: 15px;
+    }
+
+    .contacts p {
+        font-size: 11px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+    }
+}
+
+/* Styles for screens with a minimum width of 768px */
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 24px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+
+    .home-about p {
+        font-size: 16px;
+    }
+
+    .cover_img .img_bg>.container>.row {
+        min-height: 200px;
+        height: 50vh;
+    }
+
+    .contacts h2 {
+        font-size: 16px;
+    }
+
+    .contacts p {
+        font-size: 12px;
+    }
+
+    .bookings h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    table th {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    table td {
+        font-size: 12px;
+    }
+}
+
