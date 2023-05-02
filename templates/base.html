@@ -20,8 +20,13 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
 
-    <link rel="stylesheet" href="{% static 'site_static/css/style.css' %}">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'site_static/favicon_io/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'site_static/favicon_io/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'site_static/favicon_io/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'site_static/favicon_io/site.webmanifest' %}">
 
+    <link rel="stylesheet" href="{% static 'site_static/css/style.css' %}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
@@ -31,17 +36,13 @@
     <!-- Nav-bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-secondary sticky-top">
         <div class="container-fluid">
-
             <a class="navbar-brand" href="{% url 'home' %}"><strong><span class="red-c">C</span></span>u<span
                         class="blue-b">b</span>a</strong>neros</a>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse text-center" id="navbarNav">
-
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
@@ -53,7 +54,6 @@
                         <a class="nav-link" href="{% url 'menu:menu' %}">Menu</a>
                     </li>
                 </ul>
-
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'reservation_booking' %}">Book here!</a>
@@ -61,7 +61,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'contacts' %}">Contacts</a>
                     </li>
-
                     {% if user.is_authenticated %}
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'booking_list' %}">My Bookings</a>
@@ -82,13 +81,10 @@
         </div>
     </nav>
 
+    <!-- Define the main content of the page -->
+    {% block content %}
 
-    <main class="flex-shrink-0 main-bg">
-        {% block content %}
-        <!-- Content Goes here -->
-        {% endblock content %}
-    </main>
-
+    {% endblock content %}
 
     <!-- Footer -->
     <footer class="bg-secondary text-black footer py-3">
@@ -129,7 +125,6 @@
         </div>
     </footer>
 
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous">
     </script>
@@ -139,7 +134,6 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/58d92d93b9.js" crossorigin="anonymous"></script>
-
     <script src="{% static 'site_static/js/script.js' %}"></script>
 
 </body>
