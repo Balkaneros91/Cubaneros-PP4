@@ -774,6 +774,22 @@ table a {
     td {
         padding: 5px;
     }
+
+    .categories a {
+        font-size: 14px;
+    }
+
+    .menu h3>a {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .menu h5>a {
+        font-size: 14px;
+    }
 }
 
 /* Styles for screens with a minimum width of 768px */
@@ -817,66 +833,72 @@ table a {
     table td {
         font-size: 12px;
     }
-}
 
-/* Styles for screens with a minimum width of 992px */
-
-@media (min-width: 992px) {
-    .heading {
-        font-size: 40px;
+    .menu h5>a {
+        font-size: 16px;
     }
 
-    .sub-heading {
-        font-size: 24px;
+    /* Styles for screens with a minimum width of 992px */
+
+    @media (min-width: 992px) {
+        .heading {
+            font-size: 40px;
+        }
+
+        .sub-heading {
+            font-size: 24px;
+        }
+
+        .home-about p {
+            font-size: 18px;
+        }
+
+        .cover-text {
+            text-align: end;
+            /* margin-left: 21rem; */
+        }
+
+        .contacts h2 {
+            font-size: 17px;
+        }
+
+        .contacts p {
+            font-size: 13px;
+        }
+
+        .categories a {
+            font-size: 16px;
+        }
     }
 
-    .home-about p {
-        font-size: 18px;
+    /* Styles for screens with a minimum width of 1200px */
+
+    @media (min-width: 1200px) {
+        .heading {
+            font-size: 36px;
+        }
+
+        .sub-heading {
+            font-size: 24px;
+        }
+
+        .home-about p {
+            font-size: 18px;
+        }
     }
 
-    .cover-text {
-        text-align: end;
-        /* margin-left: 21rem; */
+    /* Styles for screens with a minimum width of 1400px */
+
+    @media (min-width: 1400px) {
+        .heading {
+            font-size: 36px;
+        }
+
+        .sub-heading {
+            font-size: 24px;
+        }
+
+        .home-about p {
+            font-size: 18px;
+        }
     }
-
-    .contacts h2 {
-        font-size: 17px;
-    }
-
-    .contacts p {
-        font-size: 13px;
-    }
-
-}
-
-/* Styles for screens with a minimum width of 1200px */
-
-@media (min-width: 1200px) {
-    .heading {
-        font-size: 36px;
-    }
-
-    .sub-heading {
-        font-size: 24px;
-    }
-
-    .home-about p {
-        font-size: 18px;
-    }
-}
-
-/* Styles for screens with a minimum width of 1400px */
-
-@media (min-width: 1400px) {
-    .heading {
-        font-size: 36px;
-    }
-
-    .sub-heading {
-        font-size: 24px;
-    }
-
-    .home-about p {
-        font-size: 18px;
-    }
-}
