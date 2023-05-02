@@ -703,3 +703,42 @@ table a {
     background-color: black;
     border: 1px solid grey;
 }
+
+/* @media queries */
+
+/* Styles for screens with a minimum width of 320px */
+
+@media (min-width: 300px) {
+
+    .cover-text {
+        text-align: end;
+        margin-top: 5rem;
+        background: rgba(215, 177, 177, 0.4);
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+
+    .home-about p {
+        font-size: 12px;
+    }
+
+    .cover_img .img_bg>.container>.row {
+        min-height: 200px;
+        height: 35vh;
+    }
+
+    .contacts h2 {
+        font-size: 15px;
+    }
+
+    .contacts p {
+        font-size: 11px;
+    }
+}
+
