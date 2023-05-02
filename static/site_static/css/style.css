@@ -153,4 +153,43 @@ footer {
     color: black;
   }
 
+  /* About Us */
+
+.about h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
   
+  .about p {
+    font-size: 12px;
+    padding: 10px 20px
+  }
+  
+  .about-things h3 {
+    font-size: 20px;
+  }
+  
+  .about-things h5 {
+    font-size: 15px;
+  }
+  
+  .about-things p {
+    font-size: 12px;
+    padding: 0 20px
+  }
+
+  /* Contacts page */
+
+.contacts h2 {
+    font-size: 18px;
+  }
+  
+  .contacts p {
+    font-size: 12px;
+    color: black;
+  }
+  
+  .contacts strong {
+    color: black;
+  }
+
