@@ -2,7 +2,7 @@
 
 setTimeout(function () {
     document.getElementById('msg').classList.add('hide');
-  }, 8000);
+  }, 5000);
 
 
   // Home page Menu tabs

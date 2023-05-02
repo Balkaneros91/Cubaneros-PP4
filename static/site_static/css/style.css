@@ -637,3 +637,69 @@ table a {
     border: 1px solid grey;
 }
 
+/* LogIn */
+
+.log-in h1 {
+    font-size: 20px;
+}
+
+.log-in p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.log-in a {
+    text-decoration: none;
+}
+
+.log-in label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.log-in input {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.log-in button {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.log-in button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+}
+
+
+/* LogOut */
+
+.log-out h1 {
+    font-size: 20px;
+}
+
+.log-out p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.log-out button {
+    font-size: 12px;
+    line-height: 2;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.log-out button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+}
