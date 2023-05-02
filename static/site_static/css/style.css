@@ -69,4 +69,42 @@ footer {
     padding-bottom: 5px;
   }
 
+/* Cover image */
+
+.cover_img {
+    position: relative;
+  }
   
+  .img_bg {
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 0.9;
+  }
+
+  .cover-text {
+    text-align: end;
+    margin-top: 5rem;
+    background: rgba(215, 177, 177, 0.4);
+  }
+  
+  .heading {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .sub-heading {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1;
+  }
+  
+  .cover_img .img_bg>.container>.row {
+    min-height: 180px;
+    height: 25vh;
+  }
+
