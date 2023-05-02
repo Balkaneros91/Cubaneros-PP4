@@ -17,21 +17,24 @@
     </div>
 </div>
 
+<div class="container-fluid contacts">
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-5 col-md-5 p-3">
+            <h2 class="pb-2">Contact Details: </h2>
+            <p><strong>Name: </strong>{{ contacts.name }}</p>
+            <p><strong>Email: </strong>{{ contacts.email }}</p>
+            <p><strong>Phone number: </strong>{{ contacts.phone_number }}</p>
+            <p><strong>Address: </strong>{{ contacts.address }}</p>
+        </div>
 
-<h1>Contacts</h1>
-
-Name: {{ contacts.name }}
-Email: {{ contacts.email }}
-Phone number: {{ contacts.phone_number }}
-Address: {{ contacts.address }}
-
-
-<h2>Opening Hours: </h2>
-
-{% for h in open_hours %}
-<p>{{ h.days }}</p>
-<p>{{ h.hours }}</p>
-{% endfor %}
-
+        <div class="col-sm-5 col-md-5 p-3">
+            <h2 class="pb-2">Opening Hours: </h2>
+            {% for h in open_hours %}
+            <p><strong>{{ h.days }}</strong></p>
+            <p><strong>{{ h.hours }}</strong></p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 
 {% endblock %}
