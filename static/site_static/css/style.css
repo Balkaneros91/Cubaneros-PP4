@@ -358,7 +358,62 @@ hr {
     font-weight: 300;
 }
 
+/* Booking form */
 
+.form-group {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.booking-form input {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.booking-form textarea {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.booking-form select {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.book-table {
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.book-table:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+}
+
+/* Booking confirmation */
+
+.confirmation-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.p-text {
+    font-weight: 600;
+    margin: 15px;
+    padding-bottom: 5px;
+}
+
+.confirmation {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 12px;
+}
 
 
 
