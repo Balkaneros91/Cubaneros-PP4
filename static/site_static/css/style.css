@@ -415,7 +415,15 @@ p {
     font-size: 12px;
 }
 
+/* POP-up message */
 
+.hide {
+    display: none;
+}
+
+#msg {
+    margin-top: 60px;
+}
 
 
 
