@@ -1,46 +1,46 @@
 html,
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: #d5aeaef5;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #d5aeaef5;
 }
 
 /* Nav-bar */
 
 .navbar {
-  padding: 1px;
+    padding: 1px;
 }
 
 .red-c {
-  color: red;
+    color: red;
 }
 
 .blue-b {
-  color: #65cdda;
+    color: #65cdda;
 }
 
 button.navbar-toggler {
-  color: #65cdda;
+    color: #65cdda;
 }
 
 span.navbar-toggler-icon {
-  font-size: 15px;
-  color: #65cdda;
+    font-size: 15px;
+    color: #65cdda;
 }
 
 a.nav-link {
-  font-size: 15px;
-  line-height: 1;
-  color: white;
+    font-size: 15px;
+    line-height: 1;
+    color: white;
 }
 
 .sticky-top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1030;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
 }
 
 /* Footer */
@@ -49,149 +49,224 @@ footer {
     width: 100%;
     bottom: 0px;
     position: inherit;
-  }
-  
-  .footer a {
+}
+
+.footer a {
     font-size: 18px;
     padding-bottom: 5px;
-  }
-  
-  .footer i:hover {
+}
+
+.footer i:hover {
     color: #ec9494f5;
-  }
-  
-  .footer p {
+}
+
+.footer p {
     font-size: 11px;
     line-height: 0.5;
-  }
-  
-  .copy-right {
+}
+
+.copy-right {
     padding-bottom: 5px;
-  }
+}
 
 /* Cover image */
 
 .cover_img {
     position: relative;
-  }
-  
-  .img_bg {
+}
+
+.img_bg {
     background-size: cover !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     opacity: 0.9;
-  }
+}
 
-  .cover-text {
+.cover-text {
     text-align: end;
     margin-top: 5rem;
     background: rgba(215, 177, 177, 0.4);
-  }
-  
-  .heading {
+}
+
+.heading {
     color: white;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
-  }
-  
-  .sub-heading {
+}
+
+.sub-heading {
     color: white;
     font-weight: 300;
     font-size: 15px;
     line-height: 1;
-  }
-  
-  .cover_img .img_bg>.container>.row {
+}
+
+.cover_img .img_bg>.container>.row {
     min-height: 180px;
     height: 25vh;
-  }
+}
 
 /* Home About*/
 
 .home-about {
     background: #d5aeaef5;
-  }
-  
-  .home-contacts {
+}
+
+.home-contacts {
     background: #d5aeaef5;
-  }
-  
-  .home-about h2 {
+}
+
+.home-about h2 {
     font-size: 20px;
-  }
-  
-  .home-about p {
+}
+
+.home-about p {
     font-size: 12px;
     padding: 10px 20px
-  }
-  
-  hr {
+}
+
+hr {
     margin: 0;
     color: inherit;
     order: 0;
     opacity: 0.15;
-  }
+}
 
-  /* Home Menu*/
+/* Home Menu*/
 
+.home-menu {
+    background-color: floralwhite;
+}
 
-  /* Home Contacts */
+.home-menu h2 {
+    font-size: 18px;
+    margin: 15px;
+}
+
+.home-menu ul {
+    font-size: 12px;
+}
+
+/* home-menu-items-tabs */
+
+.menu-tab-nav {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px !important;
+}
+
+.menu-tab-nav li {
+    float: none;
+    display: inline-block;
+    zoom: 1;
+}
+
+.menu-tab-nav li a {
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 10px;
+}
+
+.menu-tab-nav li a.active {
+    color: black;
+    background: none;
+    border-bottom: 1px solid red;
+}
+
+/* home-menu-items */
+
+.menu-item h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.menu-item h3 a {
+    color: #000;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+
+.menu-item h3 a:hover {
+    color: gray;
+}
+
+.menu-item p:last-child {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.menu-item .price {
+    font-weight: 500;
+}
+
+.menu-item .price strong {
+    color: grey;
+    font-size: 12px;
+}
+
+/* Home Contacts */
 
 .home-contacts h2 {
     font-size: 18px;
-  }
-  
-  .home-contacts p {
+}
+
+.home-contacts p {
     font-size: 12px;
     color: black;
     font-weight: 400;
-  }
-  
-  .home-contacts strong {
-    color: black;
-  }
+}
 
-  /* About Us */
+.home-contacts strong {
+    color: black;
+}
+
+/* About Us */
 
 .about h2 {
     font-size: 20px;
     padding-bottom: 5px;
-  }
-  
-  .about p {
+}
+
+.about p {
     font-size: 12px;
     padding: 10px 20px
-  }
-  
-  .about-things h3 {
+}
+
+.about-things h3 {
     font-size: 20px;
-  }
-  
-  .about-things h5 {
+}
+
+.about-things h5 {
     font-size: 15px;
-  }
-  
-  .about-things p {
+}
+
+.about-things p {
     font-size: 12px;
     padding: 0 20px
-  }
+}
 
-  /* Contacts page */
+/* Contacts page */
 
 .contacts h2 {
     font-size: 18px;
-  }
-  
-  .contacts p {
+}
+
+.contacts p {
     font-size: 12px;
     color: black;
-  }
-  
-  .contacts strong {
+}
+
+.contacts strong {
     color: black;
-  }
+}
 
 /* My Bookings */
 
@@ -200,37 +275,37 @@ footer {
     font-weight: 300;
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  thead {
+}
+
+thead {
     border-bottom: 1px solid lightgray;
     line-height: 1.2;
-  }
-  
-  table {
+}
+
+table {
     background: floralwhite;
-  }
-  
-  table th {
+}
+
+table th {
     font-size: 12px;
     font-weight: 600;
-  }
-  
-  table td {
+}
+
+table td {
     font-weight: 300;
     font-size: 10px;
-  }
-  
-  table a {
+}
+
+table a {
     font-size: 12px;
     font-weight: 600;
     text-decoration: none;
     color: #008000e8;
-  }
-  
-  .a-delete {
+}
+
+.a-delete {
     color: #c42222d1;
-  }
+}
 
 /* Edit booking */
 
@@ -239,112 +314,110 @@ footer {
     font-weight: 600;
     text-align: center;
     margin: 15px;
-  }
-  
-  .edit-form input {
+}
+
+.edit-form input {
     font-size: 12px;
     font-weight: 400;
-  }
-  
-  .edit-form label {
+}
+
+.edit-form label {
     font-weight: 600;
-  }
-  
-  .edit-form textarea {
+}
+
+.edit-form textarea {
     font-size: 12px;
     font-weight: 200;
-  }
-  
-  .edit-form select {
+}
+
+.edit-form select {
     font-size: 12px;
     font-weight: 200;
-  }
-  
-  .btns {
+}
+
+.btns {
     margin: 10px;
-  }
-  
-  .edit-btn {
+}
+
+.edit-btn {
     border: 1px solid black;
     background: white;
-  }
-  
-  .edit-btn:hover {
+}
+
+.edit-btn:hover {
     color: white;
     background-color: black;
     border: 1px solid grey;
-  }
-  
-  .edit-cancel-btn {
+}
+
+.edit-cancel-btn {
     font-size: 12px;
     border: 1px solid black;
     background: white;
-  }
-  
-  .cancel-btn a {
+}
+
+.cancel-btn a {
     font-size: 10px;
     text-decoration: none;
     color: black;
-  }
-  
-  .cancel-btn a:hover,
-  .edit-cancel-btn:hover {
+}
+
+.cancel-btn a:hover,
+.edit-cancel-btn:hover {
     color: white;
     background-color: black;
-  }
-  
-  
-  /* Delete booking */
-  
-  .card {
+}
+
+
+/* Delete booking */
+
+.card {
     background: floralwhite;
-  }
-  
-  .delete h1 {
+}
+
+.delete h1 {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-  }
-  
-  .delete h2 {
+}
+
+.delete h2 {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 15px;
-  }
-  
-  .delete hr {
+}
+
+.delete hr {
     margin-bottom: 5px;
-  }
-  
-  .delete p {
+}
+
+.delete p {
     font-size: 12px;
     text-align: center;
     line-height: 0.5;
     font-weight: 300;
-  }
-  
-  .delete-btn {
+}
+
+.delete-btn {
     font-size: 12px;
     font-weight: 400;
     border: 1px solid black;
-  }
-  
-  .delete-btn:hover {
+}
+
+.delete-btn:hover {
     color: white;
     background-color: black;
     border: 1px solid grey;
-  }
-  
-  .delete-cancel-btn:hover {
+}
+
+.delete-cancel-btn:hover {
     color: white;
     background-color: black;
-  }
-  
-  .delete-cancel-btn {
+}
+
+.delete-cancel-btn {
     font-size: 12px;
     border: 1px solid black;
     background: floralwhite;
-  }
-
-
+}
