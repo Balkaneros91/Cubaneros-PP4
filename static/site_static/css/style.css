@@ -425,10 +425,6 @@ p {
     margin-top: 60px;
 }
 
-
-
-
-
 /* Contacts page */
 
 .contacts h2 {
@@ -597,3 +593,47 @@ table a {
     border: 1px solid black;
     background: floralwhite;
 }
+
+/* SignUp */
+
+.sign-up h1 {
+    font-size: 20px;
+}
+
+.sign-up p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sign-up a {
+    text-decoration: none;
+}
+
+.sign-up label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.sign-up input {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.sign-up button {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sign-up button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+}
+
