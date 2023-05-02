@@ -20,13 +20,13 @@ def booking_edit(request, pk):
     booking = get_object_or_404(Booking, pk=pk)
 
     if request.method == 'POST':
-        form = BookingTableForm(request.POST, instance=booking)
+        form = BookingForm(request.POST, instance=booking)
         if form.is_valid():
             form.save()
             messages.success(request, 'Booking successfully updated!')
             return redirect('booking_list')
     else:
-        form = BookingTableForm(instance=booking)
+        form = BookingForm(instance=booking)
     context = {'form': form}
     return render(request, 'Bookings/booking_edit.html', context)
 
