@@ -108,3 +108,49 @@ footer {
     height: 25vh;
   }
 
+/* Home About*/
+
+.home-about {
+    background: #d5aeaef5;
+  }
+  
+  .home-contacts {
+    background: #d5aeaef5;
+  }
+  
+  .home-about h2 {
+    font-size: 20px;
+  }
+  
+  .home-about p {
+    font-size: 12px;
+    padding: 10px 20px
+  }
+  
+  hr {
+    margin: 0;
+    color: inherit;
+    order: 0;
+    opacity: 0.15;
+  }
+
+  /* Home Menu*/
+
+
+  /* Home Contacts */
+
+.home-contacts h2 {
+    font-size: 18px;
+  }
+  
+  .home-contacts p {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .home-contacts strong {
+    color: black;
+  }
+
+  
