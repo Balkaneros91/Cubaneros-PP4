@@ -17,6 +17,25 @@
     </div>
 </div>
 
-<h1>Meal details</h1>
+<div class="container ">
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <div class="card no-border shadow-sm m-2">
+                {% if "placeholder" in  meal_details.image.url %}
+                <img src="{% static 'site_static/img/no_image.jpg' %}" alt="No image available">
+                {% else %}
+                <img src="{{ meal_details.image.url }}" alt="#{{ meal_details.name }}">
+                {% endif %}
+                <div class="card-body details">
+                    <h5 class="card-title">{{ meal_details.name }}</h5>
+                    <p class="card-text">{{ meal_details.description }}</p>
+                    <p class="card-text">{{ meal_details.price }} SEK</p>
+                    <button type="button" class="btn btn-outline-sedondary" onclick="window.history.back();">Back to
+                        Menu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
