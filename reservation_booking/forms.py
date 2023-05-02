@@ -32,3 +32,16 @@ class BookingForm(forms.ModelForm):
             'reservation_date': DatePickerInput(attrs={'class': 'form-control', 'type': 'date'}),
             'notes': forms.Textarea(attrs={'rows': 2, 'placeholder': 'Enter any special request'}),
         }
+
+    def clean_number_of_guests(self):
+        number_of_guests = self.cleaned_data.get('number_of_guests')
+        if number_of_guests is None:
+            raise ValidationError('Please enter a valid number of guests')
+
+        if number_of_guests <= 0:
+            raise ValidationError('Number of guests must be greater than zero')
+
+        if number_of_guests > 8:
+            raise ValidationError('Sorry, we cannot accommodate parties larger than 8 guests')
+
+        return number_of_guests
