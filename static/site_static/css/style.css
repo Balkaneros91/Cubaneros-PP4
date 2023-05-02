@@ -819,3 +819,64 @@ table a {
     }
 }
 
+/* Styles for screens with a minimum width of 992px */
+
+@media (min-width: 992px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+    }
+
+    .home-about p {
+        font-size: 18px;
+    }
+
+    .cover-text {
+        text-align: end;
+        /* margin-left: 21rem; */
+    }
+
+    .contacts h2 {
+        font-size: 17px;
+    }
+
+    .contacts p {
+        font-size: 13px;
+    }
+
+}
+
+/* Styles for screens with a minimum width of 1200px */
+
+@media (min-width: 1200px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+    }
+
+    .home-about p {
+        font-size: 18px;
+    }
+}
+
+/* Styles for screens with a minimum width of 1400px */
+
+@media (min-width: 1400px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+    }
+
+    .home-about p {
+        font-size: 18px;
+    }
+}
