@@ -232,4 +232,119 @@ footer {
     color: #c42222d1;
   }
 
+/* Edit booking */
+
+.edit-form h1 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .edit-form input {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .edit-form label {
+    font-weight: 600;
+  }
+  
+  .edit-form textarea {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
+  .edit-form select {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
+  .btns {
+    margin: 10px;
+  }
+  
+  .edit-btn {
+    border: 1px solid black;
+    background: white;
+  }
+  
+  .edit-btn:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+  }
+  
+  .edit-cancel-btn {
+    font-size: 12px;
+    border: 1px solid black;
+    background: white;
+  }
+  
+  .cancel-btn a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .cancel-btn a:hover,
+  .edit-cancel-btn:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  
+  /* Delete booking */
+  
+  .card {
+    background: floralwhite;
+  }
+  
+  .delete h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .delete h2 {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .delete hr {
+    margin-bottom: 5px;
+  }
+  
+  .delete p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 0.5;
+    font-weight: 300;
+  }
+  
+  .delete-btn {
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid black;
+  }
+  
+  .delete-btn:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+  }
+  
+  .delete-cancel-btn:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  .delete-cancel-btn {
+    font-size: 12px;
+    border: 1px solid black;
+    background: floralwhite;
+  }
+
 
