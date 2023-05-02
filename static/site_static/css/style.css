@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #d5aeaef5;
+}
+
+/* Nav-bar */
+
+.navbar {
+  padding: 1px;
+}
+
+.red-c {
+  color: red;
+}
+
+.blue-b {
+  color: #65cdda;
+}
+
+button.navbar-toggler {
+  color: #65cdda;
+}
+
+span.navbar-toggler-icon {
+  font-size: 15px;
+  color: #65cdda;
+}
+
+a.nav-link {
+  font-size: 15px;
+  line-height: 1;
+  color: white;
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    position: inherit;
+  }
+  
+  .footer a {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .footer i:hover {
+    color: #ec9494f5;
+  }
+  
+  .footer p {
+    font-size: 11px;
+    line-height: 0.5;
+  }
+  
+  .copy-right {
+    padding-bottom: 5px;
+  }
+
+  
