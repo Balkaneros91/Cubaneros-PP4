@@ -17,17 +17,37 @@
     </div>
 </div>
 
-<!-- 
+<div class="container-fluid about-things">
+    <div class="row">
 
-<h1>ABOUT</h1>
+        <div class="col-md-6">
+            <div class="row">
+                {% for things in things_we_offer|slice:"0:2" %}
+                <div class="col-md-10">
+                    <div class="col-sm-12 text-center my-3">
+                        <h5>{{ things.title }}</h5>
+                        <p>{{ things.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
 
+        <div class="col-md-6">
+            <div class="row">
+                {% for things in things_we_offer|slice:"2:4" %}
+                <div class="col-md-10">
+                    <div class="col-sm-12 text-center my-3">
+                        <h5>{{ things.title }}</h5>
+                        <p>{{ things.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
 
-{% for things in things_we_offer %}
-
-<h5>{{ things.title }}</h5>
-<p>{{ things.description }}</p>
-
-{% endfor %} -->
+    </div>
+</div>
 
 
 {% endblock %}
