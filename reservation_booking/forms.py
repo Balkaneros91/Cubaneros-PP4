@@ -33,6 +33,26 @@ class BookingForm(forms.ModelForm):
             'notes': forms.Textarea(attrs={'rows': 2, 'placeholder': 'Enter any special request'}),
         }
 
+    def clean_name(self):
+        name = self.cleaned_data.get('name')
+        if not name:
+            raise forms.ValidationError('Please enter your name')
+        return name
+
+    def clean_email(self):
+        email = self.cleaned_data.get('email')
+        if not email:
+            raise forms.ValidationError('Please enter your email address')
+        try:
+            validate_email(email)
+        except forms.ValidationError:
+            raise forms.ValidationError('Please enter a valid email address')
+
+        if not re.match(r"[^@]+@[^@]+\.[^@]+", email):
+            raise forms.ValidationError('Please enter a valid email address')
+
+        return email
+
     def clean_number_of_guests(self):
         number_of_guests = self.cleaned_data.get('number_of_guests')
         if number_of_guests is None:
