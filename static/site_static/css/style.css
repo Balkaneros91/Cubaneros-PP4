@@ -193,3 +193,43 @@ footer {
     color: black;
   }
 
+/* My Bookings */
+
+.bookings h1 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  thead {
+    border-bottom: 1px solid lightgray;
+    line-height: 1.2;
+  }
+  
+  table {
+    background: floralwhite;
+  }
+  
+  table th {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  table td {
+    font-weight: 300;
+    font-size: 10px;
+  }
+  
+  table a {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #008000e8;
+  }
+  
+  .a-delete {
+    color: #c42222d1;
+  }
+
+
