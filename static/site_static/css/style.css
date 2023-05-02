@@ -713,7 +713,7 @@ table a {
     .cover-text {
         text-align: end;
         margin-top: 5rem;
-        background: rgba(215, 177, 177, 0.4);
+        background: rgba(215, 177, 177, 0.6);
     }
 
     .heading {
@@ -790,6 +790,22 @@ table a {
     .menu h5>a {
         font-size: 14px;
     }
+
+    .home-menu h2 {
+        font-size: 20px;
+    }
+
+    .menu-tab-nav li a {
+        font-size: 13px;
+    }
+
+    .menu-item h3 {
+        font-size: 14px;
+    }
+
+    .menu-item .price strong {
+        font-size: 14px;
+    }
 }
 
 /* Styles for screens with a minimum width of 768px */
@@ -838,67 +854,75 @@ table a {
         font-size: 16px;
     }
 
-    /* Styles for screens with a minimum width of 992px */
-
-    @media (min-width: 992px) {
-        .heading {
-            font-size: 40px;
-        }
-
-        .sub-heading {
-            font-size: 24px;
-        }
-
-        .home-about p {
-            font-size: 18px;
-        }
-
-        .cover-text {
-            text-align: end;
-            /* margin-left: 21rem; */
-        }
-
-        .contacts h2 {
-            font-size: 17px;
-        }
-
-        .contacts p {
-            font-size: 13px;
-        }
-
-        .categories a {
-            font-size: 16px;
-        }
+    .home-menu h2 {
+        font-size: 22px;
     }
 
-    /* Styles for screens with a minimum width of 1200px */
+    .menu-tab-nav li a {
+        font-size: 13px;
+    }
+}
 
-    @media (min-width: 1200px) {
-        .heading {
-            font-size: 36px;
-        }
+/* Styles for screens with a minimum width of 992px */
 
-        .sub-heading {
-            font-size: 24px;
-        }
-
-        .home-about p {
-            font-size: 18px;
-        }
+@media (min-width: 992px) {
+    .heading {
+        font-size: 40px;
     }
 
-    /* Styles for screens with a minimum width of 1400px */
-
-    @media (min-width: 1400px) {
-        .heading {
-            font-size: 36px;
-        }
-
-        .sub-heading {
-            font-size: 24px;
-        }
-
-        .home-about p {
-            font-size: 18px;
-        }
+    .sub-heading {
+        font-size: 24px;
     }
+
+    .home-about p {
+        font-size: 18px;
+    }
+
+    .cover-text {
+        text-align: end;
+    }
+
+    .contacts h2 {
+        font-size: 17px;
+    }
+
+    .contacts p {
+        font-size: 13px;
+    }
+
+    .categories a {
+        font-size: 16px;
+    }
+}
+
+/* Styles for screens with a minimum width of 1200px */
+
+@media (min-width: 1200px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+    }
+
+    .home-about p {
+        font-size: 18px;
+    }
+}
+
+/* Styles for screens with a minimum width of 1400px */
+
+@media (min-width: 1400px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+    }
+
+    .home-about p {
+        font-size: 18px;
+    }
+}
