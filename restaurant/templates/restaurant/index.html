@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block extra_title %}- Home{% endblock %}
+{% block extra_title %}- Restaurant{% endblock %}
 {% block content %}
 
 <!-- Cover image -->
@@ -15,6 +15,15 @@
                     <p class="sub-heading">Bienvenidos</p>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid home-about">
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-8 text-center mt-3">
+            <h2>About {{ about_us.restaurant_name }}</h2>
+            <p>{{ about_us.description }}</p>
         </div>
     </div>
 </div>

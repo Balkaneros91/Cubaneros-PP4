@@ -1,17 +1,14 @@
 from django.contrib import admin
 from .models import AboutUs, ThingsWeOffer
-from django_summernote.admin import SummernoteModelAdmin
 
 
 @admin.register(AboutUs)
-class AboutUsAdmin(SummernoteModelAdmin):
+class AboutUsAdmin(admin.ModelAdmin):
 
     list_display = ('restaurant_name', 'description')
-    summernote_fields = ('description')
 
 
 @admin.register(ThingsWeOffer)
-class ThingsWeOfferAdmin(SummernoteModelAdmin):
+class ThingsWeOfferAdmin(admin.ModelAdmin):
 
     list_display = ('title', 'description')
-    summernote_fields = ('description')
