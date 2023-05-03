@@ -10,3 +10,55 @@ The live deployed application can be found deployed on [Heroku]().
 The link to my Github repository's [Github Repo](https://github.com/Balkaneros91/Cubaneros-PP4).
 
 <hr>
+
+## CONTENTS
+
+* [User Experience](#user-experience-ux)
+  * [Agile](#agile)
+  * [User Stories](#user-stories)
+  * [Project stages](#project-stages)
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [ElephantSQL databse](#elephantsql-database)
+  * [Cloudinary API](#cloudinary-api)
+  * [Heroku deployment](#heroku-deployment)
+  * [Local deployment](#local-deployment)
+    * [Cloning](#cloning)
+    * [Forking](#forking)
+
+
+* [Testing](#testing)
+  * [Responsiveness](#responsiveness)
+  * [Manual testing](#manual-testing)
+  * [Browser Compatibility](#browser-compatibility)
+  * [Lighthouse](#lighthouse)
+  * [W3C HTML Validator](#w3c-html-validator)
+  * [JIGSAW W3C CSS Validator](#jigsaw-w3c-css-validator)
+  * [JShint](#jshint)
+  * [Code Institute Python Linter](#code-institute-python-linter)
+  * [Chrome DevTools](#chrome-devTools)
+  * [Known bugs](#known-bugs)
+  * [Solved bugs](#solved-bugs)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
+<hr>
+
