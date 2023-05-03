@@ -16,7 +16,8 @@ class Category(models.Model):
 
 class MenuItem(models.Model):
     name = models.CharField(max_length=250)
-    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL,
+                                 null=True)
     description = models.TextField(max_length=400)
     price = models.DecimalField(max_digits=5, decimal_places=2)
     image = CloudinaryField('image', default='placeholder.jpg')

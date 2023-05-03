@@ -6,6 +6,10 @@ body {
     background: #d5aeaef5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Nav-bar */
 
 .navbar {

@@ -5,9 +5,11 @@ from .models import Booking
 
 @admin.register(Booking)
 class BookingAdmin(SummernoteModelAdmin):
-    list_display = ('name', 'number_of_guests', 'reservation_date', 'reservation_time', 'created_on', 'notes', 'status')
+    list_display = ('name', 'number_of_guests', 'reservation_date',
+                    'reservation_time', 'created_on', 'notes', 'status')
     list_filter = ('reservation_date', 'status',)
-    search_fields = ['name', 'number_of_guests', 'reservation_date', 'reservation_time']
+    search_fields = ['name', 'number_of_guests', 'reservation_date',
+                     'reservation_time']
     actions = ['change_status']
 
     def change_status(self, request, queryset):
