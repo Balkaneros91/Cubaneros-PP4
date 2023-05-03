@@ -26,6 +26,12 @@
                 <a href="#{{ category.name }}" class="list-group-item list-group-item-action">{{ category.name }}</a>
                 {% endfor %}
             </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid menu">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8 p-2">
             {% for category in categories %}
             <div id="{{ category.name }}">
                 <h3 class=" text-center m-3"> <a href="#category">{{ category.name }}</a> </h3>
