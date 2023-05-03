@@ -136,3 +136,210 @@ I have created user stories based on the agile methodology and I have created th
 
 <hr>
 
+## Design
+
+### Colour Scheme
+
+I wanted to keep it simple and light. The color palette matches the cover image and is well suited color scheme for the full website.
+
+[Coolors.co](https://coolors.co/) was the website I've used to fetch the colour palette presented.
+
+![Colour Palette](readme_img/coolors.png)
+
+### Typography
+
+After I have applied the bootstrap CND I really liked the font style which came along with it and so I decided to just stick to it.
+
+<hr>
+
+## Wireframes
+
+[Balsamiq](https://balsamiq.com/wireframes) is used for wireframe design.
+
+### Restaurant's Home Page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_main.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_main_before.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_main_after.png)
+
+</details>
+
+### About Page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_about.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_about.png)
+
+</details>
+
+### Menu Page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_menu.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_menu.png)
+
+</details>
+
+### Meal details page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_menu_item_detail.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_menu_item_detail.png)
+
+</details>
+
+### Booking form
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_booking_form.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_booking_form.png)
+
+</details>
+
+### Booking confirmation
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_booking_confirmation.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_booking_confirmation.png)
+
+</details>
+
+### Contacts page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_contacts.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_contacts.png)
+
+</details>
+
+### Bookings list
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_my_bookings.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_my_bookings.png)
+
+</details>
+
+### Edit bookings
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_edit_booking.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_edit_booking.png)
+
+</details>
+
+### Delete bookings
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_delete_booking.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_delete_booking.png)
+
+</details>
+
+### Sign in Page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_sign_in.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_sign_in.png)
+
+</details>
+
+### Sign out Page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_sign_out.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_sign_out.png)
+
+</details>
+
+### Sign up Page
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_sign_up.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_sign_up.png)
+
+</details>
+
+### Error Pages
+
+<details>
+<summary>Click here!</summary>
+
+#### Mobile
+![screenshot](readme_img/wireframes/mobile_404_error.png)
+
+#### Desktop
+![screenshot](readme_img/wireframes/desktop_404_error.png)
+
+</details>
+
+<hr>
+
