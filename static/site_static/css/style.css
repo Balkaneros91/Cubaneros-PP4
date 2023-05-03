@@ -69,6 +69,12 @@ footer {
     padding-bottom: 5px;
 }
 
+iframe {
+    width: 100%;
+    height: 150;
+    border: none;
+}
+
 /* Cover image */
 
 .cover_img {
