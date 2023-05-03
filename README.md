@@ -780,6 +780,7 @@ I did not perform any validation on javascript as all the javascript was importe
 ### Known bugs
 
 - On some pages there I don't have enough content the footer does not stick to the bottom and I wasn't able to figure out the fix for that. If I remove the absolute and add the inherit css property than the footer covers some of the content. But will deffinitely look into this in the future.
+
 - Other than that not aware of any other bug. 
 
 ### Solved Bugs
