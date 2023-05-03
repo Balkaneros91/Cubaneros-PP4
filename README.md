@@ -775,3 +775,46 @@ I did not perform any validation on javascript as all the javascript was importe
 ### Chrome DevTools
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     played a big role in projects development. I used it for testing, debugging. Further more for exploring around and helping myself to fix HTML and CSS difficulties with it. It help me a lot with setting the responsiveness accross different screen sizes.
+
+
+
+
+
+
+
+
+
+<hr>
+
+## Credits
+
+Code Institue projects: 'Hello Django' and 'I think therefore I blog' has helped me a lot during the project planning for my websites design.
+Extra help I've used for this project, please see links below.
+
+### Code Used
+
+- [w3schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
+- [Grid-View](https://www.w3schools.com/css/css_rwd_grid.asp)
+- [emmet.io](https://docs.emmet.io/cheat-sheet/)
+
+- [Start Bootstrap](https://startbootstrap.com/theme/clean-blog)
+- [Django documentation](https://docs.djangoproject.com/en/3.2/)
+
+### Content
+
+- The code is mostly created by me and I was inspired by the traditional cuban cuisine.
+
+- For the deployment section I got expired by my colleague here at CI,Adam Gilroy.
+
+###  Media
+
+- [Favicon](https://favicon.io/emoji-favicons/fork-and-knife/) The fork and knife emoji. <br>
+<img src="static/site_static/favicon_io/favicon.ico">
+
+All images are downloaded from internet and used only for purposes of this project.
+  
+###  Acknowledgments
+
+- And last but not least a big thanks to my mentor Antonio Rodriguez and to the CI tutor support who help a few times during the process.
