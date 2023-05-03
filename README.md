@@ -661,3 +661,117 @@ You can fork this repository by using the following steps:
 
 <hr>
 
+## Testing
+
+All the links in the navigation bar and in the footer has been tested and works. The logo link always brings us back to the main page. Menu located on the 'home' page has different tabs for all the categories and when clicked, the menu items related to that category will be displayed to the user. Menu located on the 'menu' page has the categories listed in the top of the menu and when clicked the link will take you to the chosen category just further down the page.
+
+The navigation between the pages/apps is very simple and pretty straightforward. And the deployed website has been tested in Chrome, Safari, Internet Explorer (Opera) and Firefox. Media queries looks good and been tested throughout different screen sizes.
+
+### Responsiveness
+
+I used both of these to check the responsivness across different screen sizes.
+
+- [Am I Responsive?](http://ami.responsivedesign.is/#) 
+- [Responsinator](http://www.responsinator.com/)
+
+### Manual Testing
+
+<ul>
+<li>Booking data model tested and the whole circle of the CRUD functionality works for both users and the admin.</li>
+<li>Accept or reject bookings by admin in the admin panel tested. It works and the status can be monitored from the frontend.</li>
+<li>Menu data model tested: admin can use the whole circle of CRUD functionality from the backend, while the user only view the menu.</li>
+<li>Sign-up/ Sign-in/ Sign-out links all tested and works.</li>
+<li>Booking form tested and all its functionality and validations works.</li>
+<li>Authorisations tested based on the different accesses so that role-based functions such as booking form access, edit or deleting bookings can be accessed just if the person is permitted.</li>
+</ul>
+
+<hr>
+
+### Browser Compatibility:
+
+Browser | Pass/Fail 
+ --- | ---
+Google Chrome | Pass
+Safari | Pass
+Microsoft Edge | Pass
+Firefox | Pass
+
+<hr>
+
+## Lighthouse
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to check the quality of website pages accross mobile and desktop view. 
+
+### Lighthouse Mobile Views
+
+<details>
+<summary>Click here to see the lighthouse for mobile views:</summary>
+
+![Lighthouse](readme_img/lighthouse/lighthouse_mobile_home.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_about_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_menu_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_meal_detail_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_booking_form_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_booking_confirmation_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_booking_confirmation_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_contacts_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_bookings_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_edit_booking_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_delete_booking_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_sign_out_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_sign_up_mobile.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_sign_in_mobile.png)
+
+</details>
+
+### Lighthouse Desktop Views
+
+<details>
+<summary>Click here to see the lighthouse for desktop views:</summary>
+
+![Lighthouse](readme_img/lighthouse/lighthouse_desktop_home.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_about_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_menu_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_meal_detail_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_booking_form_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_booking_confirmation_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_contacts_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_bookings_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_edit_booking_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_delete_booking_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_sign_out_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_sign_up_desktop.png)
+![Lighthouse](readme_img/lighthouse/lighthouse_sign_in_desktop.png)
+
+</details>
+
+### W3C HTML Validator
+- [W3C Markup Validation Serice](https://validator.w3.org/) was used to validate HTML code.
+![W3C HTML Validator](readme_img/css_w3c_validatio.png)
+
+### JIGSAW W3C CSS Validator
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
+![W3C CSS Validator- JIGSAW](readme_img/css_w3c_validation.png)
+
+### JShint
+I did not perform any validation on javascript as all the javascript was imported in from [clean blog](https://github.com/StartBootstrap/startbootstrap-clean-blog).
+![JShint Validator](readme_img/css_w3c_validatio.png)
+
+
+### Code Institute Python Linter
+- [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate Python code.
+
+- cubaneros/settings.py <br>
+![Linter Validator](readme_img/css_w3c_validatio.png)
+
+- cubaneros/urls.py <br>
+![Linter Validator](readme_img/css_w3c_validatio.png)
+
+- blog/admin.py , blog/forms.py, blog/models.py, blog/views.py.<br>
+![Linter Validator](readme_img/css_w3c_validatio.png)
+
+- blog/urls.py. <br>
+![Linter Validator](readme_img/css_w3c_validatio.png)
+
+### Chrome DevTools
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    played a big role in projects development. I used it for testing, debugging. Further more for exploring around and helping myself to fix HTML and CSS difficulties with it. It help me a lot with setting the responsiveness accross different screen sizes.
