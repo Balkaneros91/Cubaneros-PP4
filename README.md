@@ -343,3 +343,190 @@ After I have applied the bootstrap CND I really liked the font style which came 
 
 <hr>
 
+## Features
+
+My website includes the base.html and the rest of the pages are build using templating. 
+
+### Final look of the Home page
+
+<details>
+<summary>Click here!</summary>
+
+![Home Page](readme_img/features/home_1.png)
+![Home Page](readme_img/features/home_2.png)
+
+</details>
+
+### Final look of the About page
+
+<details>
+<summary>Click here!</summary>
+
+![About Page](readme_img/features/about.png)
+
+</details>
+
+### Final look of the Menu page
+
+<details>
+<summary>Click here!</summary>
+
+![Menu Page](readme_img/features/menu_1.png)
+![Menu Page](readme_img/features/menu_2.png)
+![Menu Page](readme_img/features/menu_3.png)
+
+</details>
+
+### Final look of the Meal detail page
+
+<details>
+<summary>Click here!</summary>
+
+![Meal Page](readme_img/features/meal_details.png)
+
+</details>
+
+### Final look of the Booking form page
+
+<details>
+<summary>Click here!</summary>
+
+![Form Page](readme_img/features/booking_form.png)
+
+</details>
+
+### Final look of the Booking confirmation page
+
+<details>
+<summary>Click here!</summary>
+
+![Confirmation Page](readme_img/features/booking_confirmation.png)
+
+</details>
+
+### Final look of the Contacts page
+
+<details>
+<summary>Click here!</summary>
+
+![Contacts Page](readme_img/features/contacts.png)
+
+</details>
+
+### Final look of the Bookings list page
+
+<details>
+<summary>Click here!</summary>
+
+![Bookings Page](readme_img/features/bookings_list.png)
+
+</details>
+
+### Final look of the Edit booking page
+
+<details>
+<summary>Click here!</summary>
+
+![Edit Page](readme_img/features/edit_booking.png)
+
+</details>
+
+### Final look of the Delete booking page
+
+<details>
+<summary>Click here!</summary>
+
+![Delete Page](readme_img/features/delete_booking.png)
+
+</details>
+
+### Final look of the Sign in page
+
+<details>
+<summary>Click here!</summary>
+
+![Sign in Page](readme_img/features/sign_in.png)
+
+</details>
+
+### Final look of the Sign out page
+
+<details>
+<summary>Click here!</summary>
+
+![Sign out Page](readme_img/features/sign_out.png)
+
+</details>
+
+### Final look of the Sign up page
+
+<details>
+<summary>Click here!</summary>
+
+![Sign up Page](readme_img/features/sign_up.png)
+
+</details>
+
+### Final look of the Error pages
+
+<details>
+<summary>Click here!</summary>
+
+![Error 404 Page](readme_img/features/error_404.png)
+![Error 500 Page](readme_img/features/error_500.png)
+
+</details>
+
+### Footer
+
+<details>
+<summary>Click here!</summary>
+
+![Footer](readme_img/features/footer.png)
+
+</details>
+
+### Success messages
+
+<details>
+<summary>Click here!</summary>
+
+![Booking success messages](readme_img/success_message/booking_success_message.png)
+![Sign in success messages](readme_img/success_message/sign_in_success_message.png)
+
+</details>
+
+### General features on each page
+
+The navigation menu and footer is continiously the same throughout all the pages of my website.
+
+### Future Implementations
+
+This page has a potential to grow bigger. There is open space for many possible future implementations, like email automation, adding tables and available time slots to the booking form and so on.
+
+<hr>
+
+## Technologies Used
+
+### Languages Used
+
+<ul>
+<li>Python</li>
+<li>HTML/CSS</li>
+<li>JavaScript</li>
+</ul>
+
+### Frameworks, Libraries & Programs Used
+
+<ul>
+<li>Django</li>
+<li>Bootstrap</li>
+<li>Cloudinary-storage</li>
+<li>PostgreSQL</li>
+<li>Github</li>
+<li>Gitpod</li>
+<li>Balsamiq</li>
+</ul>
+
+<hr>
+
