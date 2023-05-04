@@ -5,7 +5,7 @@ My project is a restaurant website which represents a traditional rustic cuban c
 
 <hr>
 
-The live deployed application can be found deployed on [Heroku]().
+The live deployed application can be found deployed on [Heroku](https://cubaneros-pp4.herokuapp.com/).
 
 The link to my Github repository's [Github Repo](https://github.com/Balkaneros91/Cubaneros-PP4).
 
@@ -72,7 +72,7 @@ Everyone can enjoy their visit to our website because we have adjusted it and de
 
 ### Agile
 
-The project is build using the agile methodology. Link to the project board: [here](https://github.com/users/Balkaneros91/projects/13/views/1)
+The project is build using the agile methodology. To check the project's board click [here](https://github.com/users/Balkaneros91/projects/13/views/1)
 
 ### User Stories
 
@@ -345,7 +345,7 @@ After I have applied the bootstrap CND I really liked the font style which came 
 
 ## Features
 
-My website includes the base.html and the rest of the pages are build using templating. 
+My website includes the base.html and the rest of the pages are build using templating. <br>
 
 ### Final look of the Home page
 
@@ -418,6 +418,7 @@ My website includes the base.html and the rest of the pages are build using temp
 <details>
 <summary>Click here!</summary>
 
+![Bookings Page](readme_img/features/empty_bookings.png)
 ![Bookings Page](readme_img/features/bookings_list.png)
 
 </details>
@@ -495,7 +496,7 @@ My website includes the base.html and the rest of the pages are build using temp
 ![Sign in success messages](readme_img/success_message/sign_in_success_message.png)
 ![Sign in success messages](readme_img/success_message/delete_success_message.png)
 
-</details>
+</details> <br>
 
 ### General features on each page
 
@@ -535,7 +536,7 @@ This page has a potential to grow bigger. There is open space for many possible 
 
 ### Deployment
 
-The live deployed application can be found deployed on [Heroku]().
+The live deployed application can be found deployed on [Heroku](https://cubaneros-pp4.herokuapp.com/).
 
 
 ### ElephantSQL Database
@@ -666,7 +667,7 @@ You can fork this repository by using the following steps:
 
 All the links in the navigation bar and in the footer has been tested and works. The logo link always brings us back to the main page. Menu located on the 'home' page has different tabs for all the categories and when clicked, the menu items related to that category will be displayed to the user. Menu located on the 'menu' page has the categories listed in the top of the menu and when clicked the link will take you to the chosen category just further down the page.
 
-The navigation between the pages/apps is very simple and pretty straightforward. And the deployed website has been tested in Chrome, Safari, Internet Explorer (Opera) and Firefox. Media queries looks good and been tested throughout different screen sizes.
+The navigation between the pages/apps is very simple and pretty straightforward. And the deployed website has been tested in Chrome, Safari, Opera and Firefox. Media queries looks good and been tested throughout different screen sizes.
 
 ### Responsiveness
 
@@ -694,7 +695,7 @@ Browser | Pass/Fail
  --- | ---
 Google Chrome | Pass
 Safari | Pass
-Microsoft Edge | Pass
+Opera | Pass
 Firefox | Pass
 
 <hr>
@@ -743,35 +744,123 @@ Firefox | Pass
 ![Lighthouse](readme_img/lighthouse/lighthouse_sign_up_desktop.png)
 ![Lighthouse](readme_img/lighthouse/lighthouse_sign_in_desktop.png)
 
-</details>
+</details> <br>
 
 ### W3C HTML Validator
 - [W3C Markup Validation Serice](https://validator.w3.org/) was used to validate HTML code.
-![W3C HTML Validator](readme_img/css_w3c_validatio.png)
+![W3C HTML Validator](readme_img/w3c_markup_validation.png) <br>
 
 ### JIGSAW W3C CSS Validator
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
-![W3C CSS Validator- JIGSAW](readme_img/css_w3c_validation.png)
+![W3C CSS Validator- JIGSAW](readme_img/css_w3c_validation.png) <br>
 
 ### JShint
-I did not perform any validation on javascript as all the javascript was imported in from [clean blog](https://github.com/StartBootstrap/startbootstrap-clean-blog).
-![JShint Validator](readme_img/css_w3c_validatio.png)
-
+- [JShint Validator](https://jshint.com/) was used to validate JS code.
+![JShint Validator](readme_img/jshint_validation.png) <br>
 
 ### Code Institute Python Linter
 - [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate Python code.
 
+#### Projects Linter check
+
+<details>
+<summary>Check here!</summary>
+
 - cubaneros/settings.py <br>
-![Linter Validator](readme_img/css_w3c_validatio.png)
+![Linter Validator](readme_img/linter/project_settings_py.png)
 
 - cubaneros/urls.py <br>
-![Linter Validator](readme_img/css_w3c_validatio.png)
+![Linter Validator](readme_img/linter/project_urls_py.png)
 
-- blog/admin.py , blog/forms.py, blog/models.py, blog/views.py.<br>
-![Linter Validator](readme_img/css_w3c_validatio.png)
+</details>
 
-- blog/urls.py. <br>
-![Linter Validator](readme_img/css_w3c_validatio.png)
+#### Restaurant app Linter check
+
+<details>
+<summary>Check here!</summary>
+
+- restaurant/views.py.<br>
+![Linter Validator](readme_img/linter/restaurant_views.png)
+
+- restaurant/urls.py. <br>
+![Linter Validator](readme_img/linter/restaurant_urls.png)
+
+</details>
+
+#### About app Linter check
+
+<details>
+<summary>Check here!</summary>
+
+- about/models.py, about/admin.py, about/views.py.<br>
+![Linter Validator](readme_img/linter/about_models.png)
+![Linter Validator](readme_img/linter/about_admin.png)
+![Linter Validator](readme_img/linter/about_views.png)
+
+- about/urls.py. <br>
+![Linter Validator](readme_img/linter/about_urls.png)
+
+</details>
+
+#### Menu app Linter check
+
+<details>
+<summary>Check here!</summary>
+
+- menu/models.py , menu/admin.py, menu/views.py.<br>
+![Linter Validator](readme_img/linter/menu_models.png)
+![Linter Validator](readme_img/linter/menu_admin.png)
+![Linter Validator](readme_img/linter/menu_views.png)
+
+- menu/urls.py. <br>
+![Linter Validator](readme_img/linter/menu_urls.png)
+
+</details>
+
+#### Reservation-booking app Linter check
+
+<details>
+<summary>Check here!</summary>
+
+- reservation_booking/models.py, reservation_booking/admin.py , reservation_booking/widget.py, reservation_booking/forms.py, reservation_booking/views.py.<br>
+![Linter Validator](readme_img/linter/reservation_booking_models.png)
+![Linter Validator](readme_img/linter/reservation_booking_admin.png)
+![Linter Validator](readme_img/linter/reservation_booking_widget.png)
+![Linter Validator](readme_img/linter/reservation_booking_forms.png)
+![Linter Validator](readme_img/linter/reservation_booking_views.png)
+
+- reservation_booking/urls.py. <br>
+![Linter Validator](readme_img/linter/reservation_booking_urls.png)
+
+</details>
+
+#### Contacts app Linter check
+
+<details>
+<summary>Check here!</summary>
+
+- contacts/models.py , contacts/admin.py, contacts/views.py.<br>
+![Linter Validator](readme_img/linter/contacts_models.png)
+![Linter Validator](readme_img/linter/contacts_admin.png)
+![Linter Validator](readme_img/linter/contacts_views.png)
+
+- contacts/urls.py. <br>
+![Linter Validator](readme_img/linter/contacts_urls.png)
+
+</details>
+
+#### Bookings app Linter check
+
+<details>
+<summary>Check here!</summary>
+
+- bookings/views.py.<br>
+![Linter Validator](readme_img/linter/bookings_views.png)
+
+- bookings/urls.py. <br>
+![Linter Validator](readme_img/linter/bookings_urls.png)
+
+</details> <br>
 
 ### Chrome DevTools
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
@@ -816,7 +905,7 @@ Extra help I've used for this project, please see links below.
 ###  Media
 
 - [Favicon](https://favicon.io/emoji-favicons/fork-and-knife/) The fork and knife emoji. <br>
-<img src="static/site_static/favicon_io/favicon.ico">
+![Favicon](readme_img/favicon.png)
 
 All images are downloaded from internet and used only for purposes of this project.
   
