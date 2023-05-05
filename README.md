@@ -1,7 +1,7 @@
 # Restaurant Cubaneros 
 ![mockup](readme_img/amiresponsive.png)
 
-My project is a restaurant website which represents a traditional rustic cuban cuisine. The websites main features, as 'about', 'menu', contacts' displays the 'read' part of CRUD to the user and gives the important information about the websites goal to the user, while the admin can change and update the same information from the backend. The crucial part of the project is the 'book here!'(or the booking form) and 'my bookings' which gives the user/admin the possibility for 'create', 'update' and 'delete' in CRUD, so that a reservation/booking can be created, edited or removed. As admin these bookings can be approved or rejected and the status of this action reflects in the frontend presentation, which gives the user the possibility to follow up the status themselves.
+My project is a restaurant website which represents a traditional rustic cuban cuisine. The websites main features, as 'about', 'menu', contacts' displays the 'read' part of CRUD to the user and gives the important information about the websites goal to the user, while the admin can change, update and delete the same information from the backend. The crucial part of the project is the 'book here!'(or the booking form) and 'my bookings' which gives the user and admin the possibility for 'create', 'update' and 'delete' in CRUD, so that a reservation/booking can be created, edited or removed. As admin these bookings can be approved or rejected and the status of this action reflects in the frontend presentation, which gives the user the possibility to follow up the status themselves.
 
 <hr>
 
@@ -68,7 +68,7 @@ Users visiting the restaurants website are looking for a new place to explore. W
 
 The front page provides the user with all the necessary content so they could decide if that is the place they want to explore. If not authenticated they can access almost all the content of the page until it gets to the reservation part of it, for which authentication is required.
 
-Everyone can enjoy their visit to our website because we have adjusted it and designed for all different screen sizes.
+Everyone can enjoy their visit to our website because it's adjusted and designed for all different screen sizes.
 
 ### Agile
 
@@ -395,6 +395,18 @@ My website includes the base.html and the rest of the pages are build using temp
 
 </details>
 
+### Form Validation
+
+<details>
+<summary>Click here!</summary>
+
+![Form Validation](readme_img/form_validation/form_name_validation.png)
+![Form Validation](readme_img/form_validation/form_email_validation.png)
+![Form Validation](readme_img/form_validation/form_guest_num_validation.png)
+![Form Validation](readme_img/form_validation/form_date_time_validation.png)
+
+</details>
+
 ### Final look of the Booking confirmation page
 
 <details>
@@ -494,7 +506,7 @@ My website includes the base.html and the rest of the pages are build using temp
 
 ![Booking success messages](readme_img/success_message/booking_success_message.png)
 ![Sign in success messages](readme_img/success_message/sign_in_success_message.png)
-![Sign in success messages](readme_img/success_message/delete_success_message.png)
+![Delete success messages](readme_img/success_message/delete_success_message.png)
 
 </details> <br>
 
@@ -674,7 +686,6 @@ The navigation between the pages/apps is very simple and pretty straightforward.
 I used both of these to check the responsivness across different screen sizes.
 
 - [Am I Responsive?](http://ami.responsivedesign.is/#) 
-- [Responsinator](http://www.responsinator.com/)
 
 ### Manual Testing
 
@@ -684,7 +695,7 @@ I used both of these to check the responsivness across different screen sizes.
 <li>Menu data model tested: admin can use the whole circle of CRUD functionality from the backend, while the user only view the menu.</li>
 <li>Sign-up/ Sign-in/ Sign-out links all tested and works.</li>
 <li>Booking form tested and all its functionality and validations works.</li>
-<li>Authorisations tested based on the different accesses so that role-based functions such as booking form access, edit or deleting bookings can be accessed just if the person is permitted.</li>
+<li>Authorisation tested based on the different accesses so that role-based functions such as booking form access, edit or deleting bookings can be accessed just if the person is permitted.</li>
 </ul>
 
 <hr>
